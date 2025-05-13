@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""buret_analysis_simple.py  
-Versión minimalista (pandas + numpy + opcional SciPy) adaptada a las **variables enteras** del protocolo BURET.
-
+"""
 ### Columnas esperadas (tipo **int** en el CSV)
 | Columna | Descripción |
 |---------|-------------|
@@ -25,8 +23,6 @@ Versión minimalista (pandas + numpy + opcional SciPy) adaptada a las **variable
    - media ± DE por grupo
    - tamaño de efecto (*Cohen d*)
    - *t* de Welch y *p* (requiere SciPy)
-
-> **Nota**: si necesitas análisis de regresión o moderación, será mejor añadir `statsmodels`.
 """
 
 from __future__ import annotations
@@ -116,7 +112,7 @@ def compare_high_low(df: pd.DataFrame, outcome: str, split_var: str):
         print("[Sin SciPy] Instala scipy para obtener p-value")
 
 # ---------------------------------------------------------------------------
-# Main
+# Programa principal
 # ---------------------------------------------------------------------------
 
 def main():
