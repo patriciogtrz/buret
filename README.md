@@ -15,3 +15,26 @@ Objetivos:
 -	Prueba t de Welch
 -	Cálculo de d de Cohen
 -	Planeación de análisis de moderación para futuras muestras ampliadas
+
+## Replicación
+
+Se requiere [Python] para correr.
+
+```sh
+cd buret
+python buret.py (dirección de archivo CSV)
+```
+
+## Archivo CSV
+
+Columnas requeridas:
+- ID
+- sexo
+- edad
+- uso_redes
+- burnout
+- factores_psicosociales
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [Python]: <https://www.python.org/>
