@@ -25,6 +25,11 @@ cd buret
 python buret.py (dirección de archivo CSV)
 ```
 
+Dependencias necesarias: [pandas], [numpy], [scipy] (instalar con pip en un ambiente de python, ej. [venv])
+```
+python3 pip install pandas numpy scipy
+```
+
 ## Archivo CSV
 
 Columnas requeridas:
@@ -38,3 +43,7 @@ Columnas requeridas:
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
    [Python]: <https://www.python.org/>
+   [pandas]: <https://pandas.pydata.org/>
+   [numpy]: <https://numpy.org/>
+   [scipy]: <https://scipy.org/>
+   [venv]: <https://docs.python.org/3/library/venv.html>
