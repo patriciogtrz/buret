@@ -20,14 +20,14 @@ Objetivos:
 
 Se requiere [Python] para correr.
 
+Dependencias necesarias: [pandas], [numpy], [scipy] (instalar con pip en un ambiente de python, ej. [venv]).
+```
+python3 pip install pandas numpy scipy
+```
+
 ```sh
 cd buret
 python buret.py (dirección de archivo CSV)
-```
-
-Dependencias necesarias: [pandas], [numpy], [scipy] (instalar con pip en un ambiente de python, ej. [venv])
-```
-python3 pip install pandas numpy scipy
 ```
 
 ## Archivo CSV
