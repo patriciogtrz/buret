@@ -107,9 +107,9 @@ def compare_high_low(df: pd.DataFrame, outcome: str, split_var: str):
 
     if stats is not None:
         t_stat, p_val = stats.ttest_ind(hi[outcome], lo[outcome], equal_var=False)
-        print(f"Welch t = {t_stat:.3f}, p = {p_val:.4f}")
+        print(f"Welch t = {t_stat:.3f}, p = {p_val:.4f}\n")
     else:
-        print("[Sin SciPy] Instala scipy para obtener p-value")
+        print("[Sin SciPy] Instala scipy para obtener p-value\n")
 
 # ---------------------------------------------------------------------------
 # Programa principal
